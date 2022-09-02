@@ -63,6 +63,7 @@ extension FrameworkViewController: UICollectionViewDelegate{
         
         let storyboard = UIStoryboard(name: "Detail", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "FrameworkDetailViewController") as! FrameworkDetailViewController
+        vc.selectedApp = framework
         present(vc, animated: true)
     }
 }
