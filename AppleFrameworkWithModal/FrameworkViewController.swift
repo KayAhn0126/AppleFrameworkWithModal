@@ -56,7 +56,7 @@ class FrameworkViewController: UIViewController {
     }
 }
 
-extension FrameworkViewController: UICollectionViewDelegate{
+extension FrameworkViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let framework = frameworkList[indexPath.item]
         print(">>> selected: \(framework.name)")
