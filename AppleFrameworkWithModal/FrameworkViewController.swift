@@ -21,7 +21,7 @@ class FrameworkViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        collectionView.delegate = self
         // Data -> snapshot(진짜로 데이터만 관리)
         // Presentation -> diffable datasource (데이터를 셀로 어떻게 보여줄지만 관리)
         // Layout -> compositional Layout (셀들을 어떻게 보여줄지 관리)
@@ -53,6 +53,17 @@ class FrameworkViewController: UIViewController {
         
         let layout = UICollectionViewCompositionalLayout(section: section)
         return layout
+    }
+}
+
+extension FrameworkViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let framework = frameworkList[indexPath.item]
+        print(">>> selected: \(framework.name)")
+        
+        let storyboard = UIStoryboard(name: "Detail", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "FrameworkDetailViewController") as! FrameworkDetailViewController
+        present(vc, animated: true)
     }
 }
 
