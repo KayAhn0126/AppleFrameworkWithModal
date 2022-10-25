@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A3CF2B528BA3909000B91C2"
-               BuildableName = "AppleFrameworkWithCompositionalLayout.app"
+               BuildableName = "AppleFrameworkWithModal.app"
                BlueprintName = "AppleFrameworkWithModal"
                ReferencedContainer = "container:AppleFrameworkWithModal.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A3CF2B528BA3909000B91C2"
-            BuildableName = "AppleFrameworkWithCompositionalLayout.app"
+            BuildableName = "AppleFrameworkWithModal.app"
             BlueprintName = "AppleFrameworkWithModal"
             ReferencedContainer = "container:AppleFrameworkWithModal.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A3CF2B528BA3909000B91C2"
-            BuildableName = "AppleFrameworkWithCompositionalLayout.app"
+            BuildableName = "AppleFrameworkWithModal.app"
             BlueprintName = "AppleFrameworkWithModal"
             ReferencedContainer = "container:AppleFrameworkWithModal.xcodeproj">
          </BuildableReference>

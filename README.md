@@ -29,7 +29,7 @@ extension FrameworkViewController: UICollectionViewDelegate {
 - 먼저 아이템을 클릭했을떄 특정 작업이 수행되도록 UICollectionViewDelegate 프로토콜을 채택 후 **didSelectItemAt** 메서드를 구현.
 - 아이템이 클릭되었을 때 어떤 아이템이 클릭되었는지 테스트.
 - "Detail"이라는 새로운 스토리보드를 만들고 해당 스토리보드 안에 아이템을 클릭하면 나올 화면을 구현.
-- ![](https://i.imgur.com/RrRqyx0.png)
+![](https://i.imgur.com/RrRqyx0.png)
 - 아래 코드를 통해 Detail이라는 이름을 가진 스토리보드를 가져온다. 
 ```swift
 let storyboard = UIStoryboard(name: "Detail", bundle: nil)
