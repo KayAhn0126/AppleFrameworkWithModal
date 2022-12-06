@@ -1,15 +1,9 @@
 # AppleFrameworkWithModal
-- UICollectionViewDiffableDataSource
-- NSDiffableDataSourceSnapshot
-- UICollectionViewCompositionalLayout
-- SafariServices
 
 ## 🍎 작동 화면
-
 | 작동 화면 |
-|:-:|
+| :-: |
 | ![](https://i.imgur.com/7BjSLFI.gif) |
-
 
 ## 🍎 기존 AppleFrameworkWithCompositionalLayout에 추가된점
 ```swift
@@ -48,7 +42,7 @@ present(vc, animated: true)
 ```
 
 ## 🍎 Learn More 버튼을 클릭해 사파리 띄우기
-![](https://i.imgur.com/6JKfjZ9.png)
+![](https://i.imgur.com/LIoM2Xx.png)
 ```swift
 @IBAction func learnMoreButtonTapped(_ sender: UIButton) {
     guard let url = URL(string: selectedApp.urlString) else { return}
